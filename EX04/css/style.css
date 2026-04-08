@@ -1,56 +1,69 @@
 body{
-  
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 
-/* Header **/
 header{
-  
-
+    background: linear-gradient(to right, #1f2c3a, #3a4b5c);
+    color: white;
+    padding: 100px 0;
 }
+
 
 header a{
-  
-
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
 }
+
 
 header li{
- 
-
+    display: inline;
+    padding: 0 20px;
 }
 
-header #branding{
-  
 
+header #branding{
+    float: left;
 }
 
 header #branding h1{
-  
-
+    margin: 0;
 }
+
 
 header nav{
- 
-
+    float: right;
+    margin-top: 10px;
 }
+
 
 header .highlight, header .current a{
-  
-
+    color: #e85d3f;
+    font-weight: bold;
 }
 
-header a:hover{
-  
 
+header a:hover{
+    color: #cccccc;
 }
 
 
 footer{
-  
-
+    background-color: #e85d3f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
 }
 
-#newsletter form input[type="email"], .quote input, .quote textarea{
-    
-  }
 
+#newsletter form input[type="email"],
+.quote input,
+.quote textarea{
+    padding: 8px;
+    width: 250px;
+    margin-bottom: 10px;
+}
